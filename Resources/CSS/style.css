@@ -21,18 +21,116 @@ header{
 .title{
   display: flex;
   flex-grow: 1;
-/*  width: 600px;
-  height: 80px;*/
   padding-left: 30px;
   color: MediumAquamarine;
   align-items: center;
 }
 
-/*.title span{
-  align-items: center;
-  padding-bottom: 60px;
+.content{
+  display: flex;
+  column-count: 3;
+  margin: 0 auto 70px auto;
+  width: 1232px;
+  flex-wrap: nowrap;
+}
 
-}*/
+.largecolumn{
+  padding-top: 100px;
+  width: 630px;
+  display: flex;
+  margin-right: 20px;
+  flex-direction: column;
+}
+
+.mainarticle{
+  font-family: Gerogia;
+  font-size: 17px;
+}
+
+.mainarticleone span{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 630px;
+  color: white;
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Gerogia;
+}
+
+
+.mainarticle span{
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Gerogia;
+  font-size: 17px;
+
+}
+
+.mediumcolumn{
+  width: 300px;
+  padding-top: 100px;
+  display: flex;
+  margin-right: 20px;
+  flex-direction: column;
+}
+
+.smallcolumn{
+  width: 240px;
+  padding-top: 100px;
+  display: flex;
+  margin-right: 20px;
+  flex-direction: column;
+}
+
+
+.imageone{
+  background-image: url("C:/ROttoProjects/FakeNews/Resources/hipster_girl.png");
+  height: 300px;
+  color: white;
+  font-family: Georgia;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  font-weight: bold;
+  /*background-size: contain;*/
+}
+
+.cookie img{
+  width: 200px;
+  display: flex;
+}
+
+.imagetwo{
+  background-image: url("C:/ROttoProjects/FakeNews/Resources/hipster_dude.png");
+  height: 300px;
+  color: white;
+  font-family: Georgia;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.imagethree{
+  background-image: url("C:/ROttoProjects/FakeNews/Resources/CAT_CEO.png");
+  height: 300px;
+  color: white;
+  font-family: Georgia;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  font-weight: bold;
+
+}
+
+.rightcolumn h3{
+  column-span: all;
+}
 
 nav span{
    position: relative;
@@ -44,5 +142,4 @@ nav span{
 
 nav span a{
   color: black;
-
 }
