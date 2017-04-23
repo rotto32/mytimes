@@ -32,6 +32,7 @@ header{
   margin: 0 auto 70px auto;
   width: 1232px;
   flex-wrap: nowrap;
+  padding-left: 150px;
 }
 
 .largecolumn{
@@ -43,8 +44,18 @@ header{
 }
 
 .mainarticle{
-  font-family: Gerogia;
+  display: flex;
+
+  font-family: Georgia;
   font-size: 17px;
+}
+
+.mainarticle h2{
+  display: flex;
+}
+
+.mainarticle p{
+  display: flex;
 }
 
 .mainarticleone span{
@@ -61,22 +72,34 @@ header{
   font-family: Gerogia;
 }
 
-
-.mainarticle span{
+.mainarticlesub{
   display: flex;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: Gerogia;
-  font-size: 17px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.mainarticlesubimage{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+}
+
+.mainarticlesubone{
+  padding-right: 25px;
 
 }
 
 .mediumcolumn{
-  width: 300px;
+
   padding-top: 100px;
   display: flex;
   margin-right: 20px;
   flex-direction: column;
+}
+
+.articlethree{
+  width: 100%;
 }
 
 .smallcolumn{
@@ -88,20 +111,21 @@ header{
 }
 
 
-.imageone{
+.imagegirl{
   background-image: url("C:/ROttoProjects/FakeNews/Resources/hipster_girl.png");
   height: 300px;
   color: white;
   font-family: Georgia;
   font-size: 30px;
   text-align: center;
-  display: flex;
+  background-repeat: no-repeat;
   font-weight: bold;
   /*background-size: contain;*/
 }
 
 .cookie img{
-  width: 200px;
+  width: 240px;
+  height: 240px;
   display: flex;
 }
 
@@ -114,6 +138,8 @@ header{
   text-align: center;
   display: flex;
   font-weight: bold;
+  background-repeat: no-repeat;
+
 }
 
 .imagethree{
@@ -128,8 +154,9 @@ header{
 
 }
 
-.rightcolumn h3{
-  column-span: all;
+.mainarticlesubthree{
+  display: block;
+  padding-top: 100px;
 }
 
 nav span{
